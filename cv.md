@@ -29,5 +29,10 @@ function fibonacci(n) {
 // Example usage
 console.log(fibonacci(6)); // Output: 8
 ```
-
-
+## Education
+ - **2017 - 2020: MSc in Computational Engineering in Ruhr University Bochum, Germany**
+ - **2009-2013: BSc in Civil Engineering in Turin Polytechnic University in Tashkent, Uzbekistan**
+## Languages
+- Uzbek: native
+- Russian: B2
+- English: C1
