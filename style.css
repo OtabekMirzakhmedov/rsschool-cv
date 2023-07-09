@@ -53,8 +53,50 @@ main h2{
     font-size: 20px;
 }
 
-.education{
+.experience-education{
     word-spacing: 2px;
     font-size: 18px;
 }
 
+aside h2{
+    margin-bottom: 0px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-list li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0;
+  }
+  
+  .contact-info i {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+
+.skills-list{
+    list-style: none;
+    font-size: 20px;
+}
+
+.skills-list li{
+    margin-bottom: 10px;
+}
