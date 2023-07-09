@@ -153,6 +153,8 @@ footer {
 }
 
 
-.footer-list li:not(:last-child) {
-    margin-right: 10px;
+.githublink{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
