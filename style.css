@@ -1,15 +1,60 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container {
     display: flex;
-  }
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
 
 main {
     flex: 2;
     padding: 20px;
-    background-color: lightblue;
+    background-color: whitesmoke;
+
   }
+
+main h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: midnightblue;
+    margin-bottom: 0px;
+}
 
 aside {
     flex: 1;
     padding: 20px;
     background-color: lightgray;
+    align-items: center;
   }
+
+.photo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+.jobname{
+    color:  black;
+}
+
+main h2{
+    border-bottom: 2px solid midnightblue;
+}
+
+.about-me{
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+.education{
+    word-spacing: 2px;
+    font-size: 18px;
+}
+
