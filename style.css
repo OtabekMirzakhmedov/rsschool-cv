@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+nav {
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px solid;
+  background-color: whitesmoke;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  background-color: yellow;
+}
+main {
+  flex: 2;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+main h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: midnightblue;
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+  background-color: lightgray;
+  align-items: center;
+}
+
+.photo {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.jobname {
+  color: black;
+}
+
+main h2 {
+  border-bottom: 2px solid midnightblue;
+}
+
+.about-me {
+  word-spacing: 2px;
+  font-size: 20px;
+}
+
+.experience-education {
+  word-spacing: 2px;
+  font-size: 18px;
+}
+
+main pre {
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+}
+
+aside h2 {
+  margin-bottom: 0px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.contact-info i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.skills-list {
+  list-style: none;
+  font-size: 20px;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.githublink {
+  font-size: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
